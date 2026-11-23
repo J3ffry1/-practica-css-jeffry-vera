@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-label="Esports">
+    <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#18334a"/><stop offset="1" stop-color="#090b16"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#35d5ff" stop-opacity=".8"/><stop offset="1" stop-color="#35d5ff" stop-opacity="0"/></radialGradient></defs>
+    <rect width="900" height="560" fill="url(#g)"/><circle cx="700" cy="120" r="260" fill="url(#glow)" opacity=".55"/>
+    <g stroke="#35d5ff" stroke-opacity=".32" fill="none"><path d="M350 120h200v120q0 130-100 130T350 240Z" fill="#253452" stroke-width="10"/><path d="M350 160H250v60q0 100 110 100m190-160h100v60q0 100-110 100M450 370v90m-90 0h180" stroke-width="14"/>
+        <path d="M450 155l20 45 50 5-38 33 12 48-44-25-44 25 12-48-38-33 50-5Z" fill="{accent}" stroke="none"/></g><path d="M0 520H900" stroke="#35d5ff" stroke-opacity=".35" stroke-width="3"/>
+    <text x="45" y="65" fill="#ffffff" font-family="Arial,sans-serif" font-size="25" font-weight="700" opacity=".85">GAMEZONE / ESPORTS</text></svg>

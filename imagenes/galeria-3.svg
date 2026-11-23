@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-label="Carreras">
+    <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#401b38"/><stop offset="1" stop-color="#090b16"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#ff6b8a" stop-opacity=".8"/><stop offset="1" stop-color="#ff6b8a" stop-opacity="0"/></radialGradient></defs>
+    <rect width="900" height="560" fill="url(#g)"/><circle cx="700" cy="120" r="260" fill="url(#glow)" opacity=".55"/>
+    <g stroke="#ff6b8a" stroke-opacity=".32" fill="none"><path d="M170 370l80-105q20-25 70-30h230q45 0 80 45l75 90-20 65H190Z" fill="#1a203b" stroke-width="10"/>
+        <path d="M320 245l-55 110h390l-75-110Z" fill="#173b59" stroke-width="7"/><circle cx="300" cy="430" r="48" fill="#080b16" stroke="{accent}" stroke-width="12"/><circle cx="650" cy="430" r="48" fill="#080b16" stroke="{accent}" stroke-width="12"/>
+        <path d="M30 470h840M100 500h180m150 0h170m100 0h100" stroke-width="5"/></g><path d="M0 520H900" stroke="#ff6b8a" stroke-opacity=".35" stroke-width="3"/>
+    <text x="45" y="65" fill="#ffffff" font-family="Arial,sans-serif" font-size="25" font-weight="700" opacity=".85">GAMEZONE / CARRERAS</text></svg>
