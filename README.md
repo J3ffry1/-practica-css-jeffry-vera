@@ -16,13 +16,13 @@ Sitio web temático de videojuegos desarrollado como práctica académica para a
 - Enlaces externos e imágenes enlazadas.
 - Tabla de ranking demostrativo.
 - Formulario de contacto sin envío a servidor.
-- Sección adicional de próximos lanzamientos (reto práctico).
+- Lista de comprobación de requisitos del equipo (reto práctico).
 - Diseño adaptable a pantallas pequeñas.
 
 ## Estructura
 - `index.html`: estructura del sitio.
 - `css/estilos.css`: estilos externos.
-- `imagenes/`: ilustraciones SVG locales.
+- `imagenes/`: imágenes PNG locales.
 - `README.md`: documentación del proyecto.
 
 ## Autor
