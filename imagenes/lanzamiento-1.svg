@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-label="Portal futurista">
-    <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#21154a"/><stop offset="1" stop-color="#090b16"/></linearGradient>
-    <radialGradient id="glow"><stop stop-color="#9b5cff" stop-opacity=".8"/><stop offset="1" stop-color="#9b5cff" stop-opacity="0"/></radialGradient></defs>
-    <rect width="900" height="560" fill="url(#g)"/><circle cx="700" cy="120" r="260" fill="url(#glow)" opacity=".55"/>
-    <g stroke="#9b5cff" stroke-opacity=".32" fill="none"><circle cx="450" cy="280" r="180" stroke-width="12"/><circle cx="450" cy="280" r="130" stroke-width="5"/><path d="M450 100q130 180 0 360m0-360q-130 180 0 360" stroke-width="8"/></g><path d="M0 520H900" stroke="#9b5cff" stroke-opacity=".35" stroke-width="3"/>
-    <text x="45" y="65" fill="#ffffff" font-family="Arial,sans-serif" font-size="25" font-weight="700" opacity=".85">GAMEZONE / PORTAL FUTURISTA</text></svg>
