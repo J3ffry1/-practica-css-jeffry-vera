@@ -1,0 +1,464 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #202328;
+  color: #f3f4f6;
+  line-height: 1.7;
+}
+
+p {
+  color: rgb(196, 201, 209);
+  font-size: 16px;
+  font-style: normal;
+  letter-spacing: 0.2px;
+  word-spacing: 2px;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 38px;
+}
+
+h2+p {
+  margin-top: 12px;
+}
+
+h2~p {
+  margin-bottom: 12px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 span,
+h2 span,
+.etiqueta,
+.categoria,
+.estado,
+.enlace-flecha,
+.marca>span:last-child {
+  color: hsl(213, 65%, 76%);
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.seccion {
+  padding: 80px 0;
+}
+
+#juegos,
+#ranking,
+#preparacion {
+  background-color: #262a30;
+}
+
+.etiqueta,
+.categoria {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.titulo-seccion {
+  margin-bottom: 32px;
+}
+
+.titulo-seccion h2 {
+  margin: 12px 0;
+}
+
+/* Encabezado */
+.encabezado {
+  background-color: #202328;
+  background-image: url("../imagenes/fondo-gamer.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.barra-navegacion {
+  width: 90%;
+  max-width: 1180px;
+  margin: auto;
+  padding: 22px 0;
+  border-bottom: 1px solid #454c56;
+}
+
+.marca {
+  font-size: 19px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.marca-icono {
+  display: inline-block;
+  width: 34px;
+  padding: 3px;
+  text-align: center;
+  color: #202328;
+  background-color: #9abde9;
+  border-radius: 10px;
+}
+
+nav {
+  display: inline-block;
+  width: 78%;
+  text-align: right;
+}
+
+nav>a {
+  display: inline-block;
+  margin-left: 16px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+nav>a:hover {
+  color: #9abde9;
+}
+
+.hero {
+  padding: 60px 0;
+}
+
+/* Columnas sencillas */
+.hero-contenido,
+.hero-arte,
+.nosotros-grid>div,
+.nosotros-grid>ul,
+.contacto-grid>div,
+.formulario,
+.lista-preparacion,
+.ejemplos-preparacion {
+  display: inline-block;
+  width: 47%;
+  min-width: 240px;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.hero-contenido,
+.nosotros-grid>div,
+.contacto-grid>div,
+.lista-preparacion {
+  margin-right: 4%;
+}
+
+.hero h1 {
+  margin: 18px 0;
+  font-size: 54px;
+}
+
+.hero-arte {
+  text-align: center;
+}
+
+.hero-arte img {
+  width: 100%;
+  max-width: 390px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.hero-acciones,
+.formulario-acciones {
+  margin-top: 24px;
+}
+
+.boton {
+  display: inline-block;
+  padding: 12px 20px;
+  margin: 4px 8px 4px 0;
+  border: 1px solid #454c56;
+  border-radius: 9px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.boton-principal {
+  color: #202328;
+  background-color: #9abde9;
+}
+
+.boton-secundario {
+  color: #f3f4f6;
+  background-color: #2b3037;
+}
+
+.boton:hover {
+  border-color: #9abde9;
+}
+
+.boton-principal:hover {
+  background-color: #b5cced;
+}
+
+.boton:active,
+.boton-principal:active {
+  background-color: #385a7e;
+  color: white;
+}
+
+.hero-datos {
+  margin-top: 40px;
+}
+
+.hero-datos div {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.hero-datos strong {
+  display: block;
+  font-size: 24px;
+}
+
+.hero-datos span {
+  font-size: 12px;
+}
+
+/* Nosotros y tarjetas */
+#nosotros {
+  background-color: #202328;
+}
+
+.nosotros-grid p {
+  margin-bottom: 14px;
+}
+
+.texto-destacado {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.beneficios {
+  list-style: none;
+}
+
+.beneficio,
+.tarjeta-juego,
+.formulario,
+.lista-preparacion,
+.ejemplos-preparacion {
+  background-color: #2b3037;
+  border: 1px solid #454c56;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.beneficio {
+  margin-bottom: 12px;
+}
+
+.beneficio>span {
+  color: #9abde9;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.beneficio>div {
+  display: inline-block;
+  width: 85%;
+}
+
+.beneficio p {
+  margin-bottom: 0;
+}
+
+/* Catálogo y galería */
+.tarjetas-juegos,
+.galeria {
+  text-align: center;
+}
+
+.tarjeta-juego,
+.galeria>a {
+  display: inline-block;
+  width: 31%;
+  min-width: 220px;
+  max-width: 100%;
+  margin: 10px 0.7%;
+  vertical-align: top;
+}
+
+.tarjeta-juego {
+  text-align: left;
+  padding: 0;
+}
+
+.tarjeta-contenido {
+  padding: 20px;
+}
+
+.tarjeta-contenido h3 {
+  margin: 8px 0;
+  font-size: 22px;
+}
+
+.tarjeta-contenido a {
+  color: #9abde9;
+}
+
+.tarjeta-juego img,
+.galeria img,
+.ejemplos-preparacion img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #454c56;
+  border-radius: 10px;
+}
+
+.tarjeta-juego:hover,
+.galeria img:hover,
+.ejemplos-preparacion img:hover {
+  border-color: #9abde9;
+}
+
+/* Tabla */
+.tabla-contenedor {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #2b3037;
+}
+
+th,
+td {
+  padding: 14px;
+  border-bottom: 1px solid #454c56;
+  text-align: left;
+}
+
+th {
+  background-color: #333941;
+  color: #9abde9;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #30353d;
+}
+
+tbody tr:hover {
+  background-color: #3b424c;
+}
+
+tbody tr:first-child td:first-child {
+  color: #9abde9;
+  font-weight: bold;
+}
+
+tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+/* Formulario */
+.nota-formulario {
+  padding: 14px;
+  border-left: 3px solid #9abde9;
+  background-color: #2b3037;
+}
+
+.formulario label {
+  display: block;
+  margin: 10px 0 4px;
+  font-weight: bold;
+}
+
+.formulario input,
+.formulario select,
+.formulario textarea {
+  width: 100%;
+  padding: 12px;
+  background-color: #202328;
+  color: white;
+  border: 1px solid #68727e;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 16px;
+}
+
+.formulario input:focus,
+.formulario select:focus,
+.formulario textarea:focus {
+  border-color: #9abde9;
+  background-color: #303844;
+}
+
+/* Reto: preparación del equipo */
+.lista-preparacion label {
+  display: block;
+  padding: 12px;
+  border-bottom: 1px solid #454c56;
+}
+
+.lista-preparacion label:hover {
+  background-color: #333941;
+}
+
+.lista-preparacion input {
+  margin-right: 10px;
+}
+
+.lista-preparacion button {
+  margin-top: 16px;
+}
+
+.ejemplos-preparacion {
+  text-align: center;
+}
+
+.ejemplos-preparacion a {
+  display: inline-block;
+  width: 47%;
+  margin: 14px 1%;
+  vertical-align: top;
+}
+
+/* Pie de página */
+.pie {
+  padding: 25px 0;
+  background-color: #191c20;
+  text-align: center;
+}
+
+.pie p {
+  display: inline-block;
+  font-size: 12px;
+  margin: 10px 24px;
+}
+
+.pie a:hover {
+  color: #9abde9;
+}
